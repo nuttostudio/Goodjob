@@ -1,0 +1,13 @@
+@mixin text-lg($color:#333,$size:3em){
+	color: $color;
+	font-weight: bold;
+	font-size: $size;
+}
+@mixin fontface($name, $file, $weight: normal, $style: normal){
+  @font-face {
+    font-family: "#{$name}";
+    src: url('../font/#{$file}.TTF');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}

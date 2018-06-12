@@ -1,0 +1,11 @@
+@mixin button-style($pd-top: 1px, $pd-bottom: 1px, $pd-right: 1px, $pd-left: 1px, $bd-width: 0px, $bd-radius: 0px, $font-size: 1em, $color: #333, $bg-color: #fff){
+	padding-top: $pd-top;
+	padding-bottom: $pd-bottom;
+	padding-right: $pd-right;
+	padding-left: $pd-left;
+	border-width: $bd-width;
+	border-radius: $bd-radius;
+	font-size: $font-size;
+	color: $color;
+	background-color: $bg-color;
+}

@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "OMYIM";
+  src: url("../font/PSL-OMYIM_0.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "OMYIM";
+}
+
+#haeder {
+  background-image: url("../img/bg-silde.png");
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+#haeder nav ul li.nav-item a.nav-link {
+  font-family: "OMYIM";
+  color: #fff;
+  font-size: 1.5em;
+}
+#haeder nav ul li.nav-item button.nav-log {
+  font-family: "OMYIM";
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-width: 0;
+  border-radius: 1em;
+  font-size: 1.4em;
+  color: #07a6b7;
+  background-color: #fff;
+}
+#haeder #slide {
+  padding: 100px;
+}
+#haeder #slide .carousel-item span {
+  font-family: "OMYIM";
+  font-size: 1.5em;
+  color: #fff;
+}
+#haeder #slide .carousel-item span p {
+  margin: 0;
+}
+
+#job-order {
+  font-family: "OMYIM";
+}
+#job-order h1 {
+  margin: 0;
+}
+#job-order h3 {
+  margin: 0;
+}
+#job-order hr {
+  border-top: 2px solid #cccccc;
+}
+
+#service {
+  background-color: #f1f1f1;
+  font-family: "OMYIM";
+}
+#service h1 {
+  margin: 0;
+}
+#service h3 {
+  color: #b8b7b7;
+  margin: 0;
+}
+#service section.slider {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+  margin: 1em;
+  padding: 0;
+  width: 70%;
+  margin: auto;
+}
+.slider a:hover {
+  text-decoration: none;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-slide:hover {
+  opacity: 2;
+}
+.slick-slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  object-fit: contain;
+}
+.slick-slide p {
+  margin-top: 0.5em;
+  color: #cccccc;
+  font-size: 1em;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+#preview {
+  font-family: "OMYIM";
+}
+
+.block-con {
+  position: relative;
+}
+.block-con img.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.block-con .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: all;
+  text-align: center;
+}
+.block-con:hover .image {
+  opacity: 0.8;
+}
+.block-con:hover .middle {
+  opacity: 1;
+}
+.block-con .text {
+  bottom: 0;
+  position: absolute;
+  border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container#slide {
+    height: 1000px;
+  }
+  .container#slide .carousel-item span {
+    font-size: 0.2em;
+  }
+}
